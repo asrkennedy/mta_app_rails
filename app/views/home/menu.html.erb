@@ -1,0 +1,48 @@
+<p>Which stop are you leaving from?</p>
+
+<form action='/choice' method='get'>
+  <select name='stop_a'>
+    <option value="n- ts">n- ts</option>
+    <option value="n- 34th">n- 34th</option>
+    <option value="n- 28th">n- 28th</option>
+    <option value="n- 23rd">n-23rd</option>
+    <option value="n- us">n- us</option>
+    <option value="n- 8th">n- 8th</option>
+    <option value="l- 8th">l- 8th</option>
+    <option value="l- 6th">l- 6th</option>
+    <option value="l- us">l- us</option>
+    <option value="l- 3rd">l- 3rd</option>
+    <option value="l- 1st">l- 1st</option>
+    <option value="s- gc">s- gc</option>
+    <option value="s- 33rd">s- 33rd</option>
+    <option value="s- 28th">s- 28th</option>
+    <option value="s- 23th">s- 23th</option>
+    <option value="s- us">s- us</option>
+    <option value="s- ap">s- ap</option>
+  </select>
+
+<p>At which stop are you getting off?</p>
+
+<select name='stop_b'>
+ <option value="n- ts">n- ts</option>
+    <option value="n- 34th">n- 34th</option>
+    <option value="n- 28th">n- 28th</option>
+    <option value="n- 23rd">n-23rd</option>
+    <option value="n- us">n- us</option>
+    <option value="n- 8th">n- 8th</option>
+    <option value="l- 8th">l- 8th</option>
+    <option value="l- 6th">l- 6th</option>
+    <option value="l- us">l- us</option>
+    <option value="l- 3rd">l- 3rd</option>
+    <option value="l- 1st">l- 1st</option>
+    <option value="s- gc">s- gc</option>
+    <option value="s- 33rd">s- 33rd</option>
+    <option value="s- 28th">s- 28th</option>
+    <option value="s- 23th">s- 23th</option>
+    <option value="s- us">s- us</option>
+    <option value="s- ap">s- ap</option>
+  </select>
+  <button>Confirm</button>
+</form>
+
+<%= @result if @result%>
